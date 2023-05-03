@@ -810,9 +810,12 @@ mod_overlay_profiledef () {
 mod_overlay_package () {
 
 	mod_overlay_pacman_conf
+	mod_overlay_packages_comment
 	mod_overlay_packages_x86_64
 
 }
+
+
 
 ##
 ### Tail: Model / Overlay / package
@@ -844,6 +847,32 @@ mod_overlay_pacman_conf () {
 ##
 ### Tail: Model / Overlay / pacman.conf
 ################################################################################
+
+
+################################################################################
+### Head: Model / Overlay / packages.x86_64 / comment
+##
+
+mod_overlay_packages_comment () {
+
+	mod_overlay_packages_comment_grml-zsh-config
+
+}
+
+mod_overlay_packages_comment_grml-zsh-config () {
+
+	util_error_echo
+	util_error_echo "sed -i 's/^grml-zsh-config/#grml-zsh-config/g' ${THE_PLAN_PROFILE_DIR_PATH}/packages.x86_64"
+	sed -i 's/^grml-zsh-config/#grml-zsh-config/g' "${THE_PLAN_PROFILE_DIR_PATH}/packages.x86_64"
+
+	return 0
+
+}
+
+##
+### Tail: Model / Overlay / packages.x86_64 / comment
+################################################################################
+
 
 
 ################################################################################
