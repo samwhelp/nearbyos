@@ -238,6 +238,17 @@ yay-bin
 
 
 ################################################################################
+### Head: Nearbyos / Main / Media
+##
+
+mate-media
+
+##
+### Tail: Nearbyos / Main / Media
+################################################################################
+
+
+################################################################################
 ### Head: Nearbyos / Main / Tool / File Manager
 ##
 
@@ -293,6 +304,43 @@ lxterminal
 
 ##
 ### Tail: Nearbyos / Main / Tool / Terminal
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Main / Tool / Image Viewer
+##
+
+viewnior
+
+##
+### Tail: Nearbyos / Main / Tool / Image Viewer
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Main / Tool / Video Player
+##
+
+mpv
+
+smplayer
+
+vlc
+
+##
+### Tail: Nearbyos / Main / Tool / Video Player
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Main / Tool / Audio Player
+##
+
+audacious
+
+##
+### Tail: Nearbyos / Main / Tool / Audio Player
 ################################################################################
 
 
@@ -372,6 +420,7 @@ nearbyos-modeling-wallpaper-default
 ### Head: Nearbyos / Modeling / Tool / Shell
 ##
 
+nearbyos-modeling-fzf
 
 nearbyos-modeling-bash-it
 
@@ -541,4 +590,37 @@ nearbyos-modeling-lxterminal
 
 ##
 ### Tail: Nearbyos / Modeling / Tool / Terminal
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Tool / Image Viewer
+##
+
+nearbyos-modeling-viewnior
+
+##
+### Tail: Nearbyos / Modeling / Tool / Image Viewer
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Tool / Video Player
+##
+
+nearbyos-modeling-mpv
+
+##
+### Tail: Nearbyos / Modeling / Tool / Video Player
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Tool / Audio Player
+##
+
+
+
+##
+### Tail: Nearbyos / Modeling / Tool / Audio Player
 ################################################################################

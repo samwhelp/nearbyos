@@ -93,13 +93,12 @@ mod_package_list_build () {
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/web-browser.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/terminal.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/image-viewer.txt" >> "${package_list_file_path}"
-	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/video-viewer.txt" >> "${package_list_file_path}"
-	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/audio-viewer.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/video-player.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/audio-player.txt" >> "${package_list_file_path}"
 
 
 
 }
-
 
 ##
 ### Tail: Model / Build ISO
