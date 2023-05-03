@@ -1,2 +1,5 @@
-# nearbyos
-Nearbyos
+
+# Nearbyos
+
+| [Nearbyos](https://samwhelp.github.io/nearbyos/) | [GitHub](https://github.com/samwhelp/nearbyos) |
+
