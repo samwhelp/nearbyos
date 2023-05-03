@@ -56,6 +56,7 @@ mod_package_list_build () {
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/text-editor.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/web-browser.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/terminal.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/aur-helper.txt" >> "${package_list_file_path}"
 
 
 	cat "${THE_BASE_DIR_PATH}/main.txt" >> "${package_list_file_path}"
@@ -73,6 +74,7 @@ mod_package_list_build () {
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/text-editor.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/web-browser.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/terminal.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/aur-helper.txt" >> "${package_list_file_path}"
 
 
 }
