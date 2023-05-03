@@ -1,11 +1,10 @@
 
 
 ################################################################################
-### Head: Nearbyos / Theme / cursor-theme
+### Head: Nearbyos / Modeling / Style
 ##
 
-xcursor-breeze
 
 ##
-### Tail: Nearbyos / Theme / cursor-theme
+### Tail: Nearbyos / Modeling / Style
 ################################################################################

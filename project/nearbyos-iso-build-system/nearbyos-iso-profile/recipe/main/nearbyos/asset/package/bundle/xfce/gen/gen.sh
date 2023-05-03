@@ -47,6 +47,8 @@ mod_package_list_build () {
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/theme/icon-theme.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/theme/cursor-theme.txt" >> "${package_list_file_path}"
 
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/style.txt" >> "${package_list_file_path}"
+
 
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/network/network-manager.txt" >> "${package_list_file_path}"
 
@@ -54,13 +56,14 @@ mod_package_list_build () {
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/web-browser.txt" >> "${package_list_file_path}"
 
 
-	cat "${THE_BASE_DIR_PATH}/base.txt" >> "${package_list_file_path}"
-	cat "${THE_BASE_DIR_PATH}/aur.txt" >> "${package_list_file_path}"
-
+	cat "${THE_BASE_DIR_PATH}/main.txt" >> "${package_list_file_path}"
 
 
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/base.txt" >> "${package_list_file_path}"
 	cat "${THE_BASE_DIR_PATH}/modeling.txt" >> "${package_list_file_path}"
+
+
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/style.txt" >> "${package_list_file_path}"
 
 }
 
