@@ -1,0 +1,12 @@
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Theme / Numix
+##
+
+nearbyos-appearance-gtk-theme-numix-blue
+nearbyos-appearance-icon-theme-numix
+
+##
+### Tail: Nearbyos / Modeling / Theme / Numix
+################################################################################

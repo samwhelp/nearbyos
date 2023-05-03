@@ -70,6 +70,12 @@ mod_package_list_build () {
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/wallpaper.txt" >> "${package_list_file_path}"
 
 
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/theme/by-theme/gruvbox.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/theme/by-theme/dracula.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/theme/by-theme/numix.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/theme/by-theme/rgaps.txt" >> "${package_list_file_path}"
+
+
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/file-manager.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/text-editor.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/web-browser.txt" >> "${package_list_file_path}"

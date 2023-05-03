@@ -317,6 +317,54 @@ nearbyos-modeling-wallpaper-default
 
 
 ################################################################################
+### Head: Nearbyos / Modeling / Theme / Gruvbox
+##
+
+nearbyos-appearance-gtk-theme-gruvbox
+nearbyos-appearance-gtk-theme-gruvbox-dark
+nearbyos-appearance-icon-theme-gruvbox-dark
+
+##
+### Tail: Nearbyos / Modeling / Theme / Gruvbox
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Theme / Dracula
+##
+
+nearbyos-appearance-gtk-theme-dracula
+nearbyos-appearance-icon-theme-dracula
+
+##
+### Tail: Nearbyos / Modeling / Theme / Dracula
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Theme / Numix
+##
+
+nearbyos-appearance-gtk-theme-numix-blue
+nearbyos-appearance-icon-theme-numix
+
+##
+### Tail: Nearbyos / Modeling / Theme / Numix
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Theme / Rgaps
+##
+
+nearbyos-appearance-xfwm-theme-rgaps-blend-no-buttons
+
+##
+### Tail: Nearbyos / Modeling / Theme / Rgaps
+################################################################################
+
+
+################################################################################
 ### Head: Nearbyos / Modeling / Tool / File Manager
 ##
 
