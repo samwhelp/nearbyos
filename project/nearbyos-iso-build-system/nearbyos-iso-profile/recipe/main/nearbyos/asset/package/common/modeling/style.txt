@@ -4,6 +4,15 @@
 ### Head: Nearbyos / Modeling / Style
 ##
 
+nearbyos-modeling-qt-style-follow-gtk
+
+nearbyos-modeling-cursor-default-breeze
+
+nearbyos-modeling-gtkrc
+nearbyos-modeling-gtkrc-gruvbox-dark
+
+nearbyos-modeling-qt5ctrc
+nearbyos-modeling-qt5ctrc-gruvbox-dark
 
 ##
 ### Tail: Nearbyos / Modeling / Style
