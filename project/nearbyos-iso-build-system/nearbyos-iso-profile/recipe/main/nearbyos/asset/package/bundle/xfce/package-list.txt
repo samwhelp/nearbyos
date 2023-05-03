@@ -180,6 +180,17 @@ qt5-styleplugins
 
 
 ################################################################################
+### Head: Nearbyos / Main / Wallpaper
+##
+
+
+
+##
+### Tail: Nearbyos / Main / Wallpaper
+################################################################################
+
+
+################################################################################
 ### Head: Nearbyos / Main / Tool / File Manager
 ##
 
@@ -279,6 +290,18 @@ nearbyos-autostart-plank-on-xfce
 
 ##
 ### Tail: Nearbyos / Modeling / Style
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Wallpaper
+##
+
+nearbyos-modeling-wallpaper-collection
+nearbyos-modeling-wallpaper-default
+
+##
+### Tail: Nearbyos / Modeling / Wallpaper
 ################################################################################
 
 
