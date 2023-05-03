@@ -1,0 +1,186 @@
+
+
+
+
+################################################################################
+### Head: Nearbyos / Note
+##
+
+##
+## * https://samwhelp.github.io/nearbyos/
+## * https://github.com/samwhelp/nearbyos/tree/main/project/nearbyos-system
+## * https://github.com/samwhelp/nearbyos/tree/main/project/nearbyos-system/nearbyos-iso-profile
+## * https://github.com/samwhelp/nearbyos/tree/main/project/nearbyos-system/nearbyos-packaging
+## * https://github.com/samwhelp/nearbyos/tree/main/project/nearbyos-system/nearbyos-repository
+##
+
+##
+### Tail: Nearbyos / Note
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Base
+##
+
+#nearbyos-mirrorlist
+#nearbyos-hello
+
+##
+### Tail: Nearbyos / Base
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Xorg
+##
+
+mesa
+xorg
+xorg-server
+xorg-apps
+xorg-drivers
+xorg-xkill
+xorg-xinit
+xterm
+
+##
+### Tail: Nearbyos / Xorg
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Display Manager / lightdm
+##
+
+accountsservice
+
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+
+##
+## https://wiki.archlinux.org/title/LightDM
+## https://wiki.archlinux.org/title/ConsoleKit
+##
+
+##
+### Tail: Nearbyos / Display Manager / lightdm
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Polkit
+##
+
+polkit
+polkit-gnome
+
+
+##
+## https://wiki.archlinux.org/title/Polkit
+##
+
+##
+### Tail: Nearbyos / Polkit
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Eesktop Environment / xfce
+##
+
+xfce4
+xfce4-goodies
+
+
+xarchiver
+xfburn
+
+##
+### Tail: Nearbyos / Eesktop Environment / xfce
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Font
+##
+
+ttf-dejavu
+ttf-liberation
+ttf-bitstream-vera
+ttf-ubuntu-font-family
+cantarell-fonts
+ttf-croscore
+ttf-carlito
+ttf-caladea
+
+opendesktop-fonts
+ttf-opensans
+freetype2
+
+noto-fonts
+noto-fonts-cjk
+#noto-fonts-emoji
+#noto-fonts-extra
+
+##
+### Tail: Nearbyos / Font
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Theme / gtk-theme
+##
+
+adapta-gtk-theme
+arc-gtk-theme
+
+## for gtk2 themes
+gtk-engine-murrine
+
+##
+### Tail: Nearbyos / Theme / gtk-theme
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Theme / icon-theme
+##
+
+arc-icon-theme
+papirus-icon-theme
+
+##
+### Tail: Nearbyos / Theme / icon-theme
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Networking
+##
+
+
+##
+## https://wiki.archlinux.org/title/NetworkManager
+##
+
+networkmanager
+nm-connection-editor
+network-manager-applet
+
+##
+### Tail: Nearbyos / Networking
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Web Browser
+##
+
+firefox
+
+##
+### Tail: Nearbyos / Web Browser
+################################################################################
