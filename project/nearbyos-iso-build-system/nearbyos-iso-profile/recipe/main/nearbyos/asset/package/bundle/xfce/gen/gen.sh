@@ -52,13 +52,19 @@ mod_package_list_build () {
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/style.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/wallpaper.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/shell.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/launcher.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/dock.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/aur-helper.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/media.txt" >> "${package_list_file_path}"
 
 
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/file-manager.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/text-editor.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/web-browser.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/terminal.txt" >> "${package_list_file_path}"
-	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/aur-helper.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/image-viewer.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/video-player.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/audio-player.txt" >> "${package_list_file_path}"
 
 
 	cat "${THE_BASE_DIR_PATH}/main.txt" >> "${package_list_file_path}"
@@ -71,6 +77,9 @@ mod_package_list_build () {
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/style.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/wallpaper.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/shell.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/launcher.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/dock.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/aur-helper.txt" >> "${package_list_file_path}"
 
 
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/theme/by-theme/gruvbox.txt" >> "${package_list_file_path}"
@@ -83,7 +92,10 @@ mod_package_list_build () {
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/text-editor.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/web-browser.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/terminal.txt" >> "${package_list_file_path}"
-	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/aur-helper.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/image-viewer.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/video-viewer.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/tool/audio-viewer.txt" >> "${package_list_file_path}"
+
 
 
 }

@@ -1,16 +1,11 @@
 
 
 ################################################################################
-### Head: Nearbyos / Modeling / Tool / Shell
+### Head: Nearbyos / Modeling / Tool / Audio Player
 ##
 
-nearbyos-modeling-fzf
-
-nearbyos-modeling-bash-it
-
-nearbyos-modeling-oh-my-zsh
 
 
 ##
-### Tail: Nearbyos / Modeling / Tool / Shell
+### Tail: Nearbyos / Modeling / Tool / Audio Player
 ################################################################################

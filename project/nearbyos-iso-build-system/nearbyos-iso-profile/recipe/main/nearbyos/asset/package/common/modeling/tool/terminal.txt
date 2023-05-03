@@ -4,6 +4,19 @@
 ### Head: Nearbyos / Modeling / Tool / Terminal
 ##
 
+nearbyos-modeling-sakura
+
+nearbyos-modeling-xfce4-terminal
+
+nearbyos-modeling-lxterminal
+
+#nearbyos-modeling-mate-terminal
+
+#nearbyos-modeling-gnome-console
+#nearbyos-modeling-gnome-terminal
+
+
+
 
 
 ##

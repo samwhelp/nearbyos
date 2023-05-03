@@ -4,7 +4,19 @@
 ### Head: Nearbyos / Modeling / Tool / Text Editor
 ##
 
+nearbyos-modeling-vi
 
+nearbyos-modeling-mousepad
+
+nearbyos-modeling-sublime-text
+
+#nearbyos-modeling-atom
+
+#nearbyos-modeling-pluma
+
+#nearbyos-modeling-xed
+
+#nearbyos-modeling-gedit
 
 ##
 ### Tail: Nearbyos / Modeling / Tool / Text Editor

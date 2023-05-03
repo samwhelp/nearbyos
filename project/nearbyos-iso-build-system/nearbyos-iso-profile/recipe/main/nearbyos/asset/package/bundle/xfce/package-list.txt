@@ -205,6 +205,39 @@ zsh
 
 
 ################################################################################
+### Head: Nearbyos / Main / Launcher
+##
+
+rofi
+
+##
+### Tail: Nearbyos / Main / Launcher
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Main / Dock
+##
+
+plank
+
+##
+### Tail: Nearbyos / Main / Dock
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Main / Tool / AUR Helper
+##
+
+yay-bin
+
+##
+### Tail: Nearbyos / Main / Tool / AUR Helper
+################################################################################
+
+
+################################################################################
 ### Head: Nearbyos / Main / Tool / File Manager
 ##
 
@@ -251,19 +284,15 @@ sakura
 
 xfce4-terminal
 
+lxterminal
+
+#mate-terminal
+
+#gnome-console
+#gnome-terminal
+
 ##
 ### Tail: Nearbyos / Main / Tool / Terminal
-################################################################################
-
-
-################################################################################
-### Head: Nearbyos / Main / Tool / AUR Helper
-##
-
-yay-bin
-
-##
-### Tail: Nearbyos / Main / Tool / AUR Helper
 ################################################################################
 
 
@@ -355,6 +384,42 @@ nearbyos-modeling-oh-my-zsh
 
 
 ################################################################################
+### Head: Nearbyos / Modeling / Tool / Launcher
+##
+
+
+nearbyos-modeling-rofi
+
+
+##
+### Tail: Nearbyos / Modeling / Tool / Launcher
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Tool / Dock
+##
+
+nearbyos-modeling-plank
+
+
+##
+### Tail: Nearbyos / Modeling / Tool / Dock
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Tool / AUR Helper
+##
+
+
+
+##
+### Tail: Nearbyos / Modeling / Tool / AUR Helper
+################################################################################
+
+
+################################################################################
 ### Head: Nearbyos / Modeling / Theme / Gruvbox
 ##
 
@@ -406,7 +471,15 @@ nearbyos-appearance-xfwm-theme-rgaps-blend-no-buttons
 ### Head: Nearbyos / Modeling / Tool / File Manager
 ##
 
+nearbyos-modeling-thunar
 
+nearbyos-modeling-pcmanfm
+
+nearbyos-modeling-pcmanfm-qt
+
+#nearbyos-modeling-nautilus
+
+#nearbyos-modeling-caja
 
 ##
 ### Tail: Nearbyos / Modeling / Tool / File Manager
@@ -417,7 +490,19 @@ nearbyos-appearance-xfwm-theme-rgaps-blend-no-buttons
 ### Head: Nearbyos / Modeling / Tool / Text Editor
 ##
 
+nearbyos-modeling-vi
 
+nearbyos-modeling-mousepad
+
+nearbyos-modeling-sublime-text
+
+#nearbyos-modeling-atom
+
+#nearbyos-modeling-pluma
+
+#nearbyos-modeling-xed
+
+#nearbyos-modeling-gedit
 
 ##
 ### Tail: Nearbyos / Modeling / Tool / Text Editor
@@ -439,19 +524,21 @@ nearbyos-appearance-xfwm-theme-rgaps-blend-no-buttons
 ### Head: Nearbyos / Modeling / Tool / Terminal
 ##
 
+nearbyos-modeling-sakura
+
+nearbyos-modeling-xfce4-terminal
+
+nearbyos-modeling-lxterminal
+
+#nearbyos-modeling-mate-terminal
+
+#nearbyos-modeling-gnome-console
+#nearbyos-modeling-gnome-terminal
+
+
+
 
 
 ##
 ### Tail: Nearbyos / Modeling / Tool / Terminal
-################################################################################
-
-
-################################################################################
-### Head: Nearbyos / Modeling / Tool / AUR Helper
-##
-
-
-
-##
-### Tail: Nearbyos / Modeling / Tool / AUR Helper
 ################################################################################

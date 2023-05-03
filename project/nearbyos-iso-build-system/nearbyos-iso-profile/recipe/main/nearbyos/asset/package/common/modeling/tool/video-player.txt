@@ -1,16 +1,11 @@
 
 
 ################################################################################
-### Head: Nearbyos / Modeling / Tool / Shell
+### Head: Nearbyos / Modeling / Tool / Video Player
 ##
 
-nearbyos-modeling-fzf
-
-nearbyos-modeling-bash-it
-
-nearbyos-modeling-oh-my-zsh
-
+nearbyos-modeling-mpv
 
 ##
-### Tail: Nearbyos / Modeling / Tool / Shell
+### Tail: Nearbyos / Modeling / Tool / Video Player
 ################################################################################

@@ -1,16 +1,11 @@
 
 
 ################################################################################
-### Head: Nearbyos / Modeling / Tool / Shell
+### Head: Nearbyos / Main / Media
 ##
 
-nearbyos-modeling-fzf
-
-nearbyos-modeling-bash-it
-
-nearbyos-modeling-oh-my-zsh
-
+mate-media
 
 ##
-### Tail: Nearbyos / Modeling / Tool / Shell
+### Tail: Nearbyos / Main / Media
 ################################################################################

@@ -4,7 +4,15 @@
 ### Head: Nearbyos / Modeling / Tool / File Manager
 ##
 
+nearbyos-modeling-thunar
 
+nearbyos-modeling-pcmanfm
+
+nearbyos-modeling-pcmanfm-qt
+
+#nearbyos-modeling-nautilus
+
+#nearbyos-modeling-caja
 
 ##
 ### Tail: Nearbyos / Modeling / Tool / File Manager

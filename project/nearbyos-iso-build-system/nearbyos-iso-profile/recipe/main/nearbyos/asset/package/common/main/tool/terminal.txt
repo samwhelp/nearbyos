@@ -8,6 +8,13 @@ sakura
 
 xfce4-terminal
 
+lxterminal
+
+#mate-terminal
+
+#gnome-console
+#gnome-terminal
+
 ##
 ### Tail: Nearbyos / Main / Tool / Terminal
 ################################################################################
