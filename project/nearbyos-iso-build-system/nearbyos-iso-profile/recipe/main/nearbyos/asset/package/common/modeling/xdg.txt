@@ -1,0 +1,13 @@
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Xdg
+##
+
+nearbyos-modeling-xdg-mime-applications
+nearbyos-modeling-xdg-user-dir-templates
+
+
+##
+### Tail: Nearbyos / Modeling / Xdg
+################################################################################

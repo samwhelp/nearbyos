@@ -74,6 +74,7 @@ mod_package_list_build () {
 	cat "${THE_BASE_DIR_PATH}/modeling.txt" >> "${package_list_file_path}"
 
 
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/xdg.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/font.txt" >> "${package_list_file_path}"
 
 
