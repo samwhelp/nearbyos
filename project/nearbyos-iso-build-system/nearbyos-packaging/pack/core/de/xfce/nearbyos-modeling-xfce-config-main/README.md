@@ -1,5 +1,5 @@
 
-# nearbyos-modeling-xfce
+# nearbyos-modeling-xfce-config-main
 
 
 ## Reference
@@ -18,7 +18,7 @@
 run
 
 ``` sh
-pacman -Ql nearbyos-modeling-xfce -q
+pacman -Ql nearbyos-modeling-xfce-config-main -q
 ```
 
 show

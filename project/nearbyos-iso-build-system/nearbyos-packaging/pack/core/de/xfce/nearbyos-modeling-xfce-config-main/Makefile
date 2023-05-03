@@ -53,7 +53,7 @@ reinstall:
 
 
 uninstall:
-	sudo pacman -R nearbyos-modeling-xfce
+	sudo pacman -R nearbyos-modeling-xfce-config-main
 .PHONY: uninstall
 
 clean:
@@ -65,9 +65,9 @@ clean:
 
 
 list:
-	pacman -Ql nearbyos-modeling-xfce -q
+	pacman -Ql nearbyos-modeling-xfce-config-main -q
 .PHONY: list
 
 info:
-	pacman -Qi nearbyos-modeling-xfce
+	pacman -Qi nearbyos-modeling-xfce-config-main
 .PHONY: info

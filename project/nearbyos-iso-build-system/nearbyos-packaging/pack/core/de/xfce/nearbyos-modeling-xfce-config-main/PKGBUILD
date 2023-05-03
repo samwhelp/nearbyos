@@ -9,11 +9,11 @@
 ## * https://wiki.archlinux.org/title/Arch_package_guidelines
 ##
 
-pkgname=nearbyos-modeling-xfce
+pkgname=nearbyos-modeling-xfce-config-main
 pkgver=0.1
 pkgrel=1
 pkgdesc="Nearbyos / Modeling / Xfce"
-url="https://github.com/samwhelp/nearbyos-packaging/tree/main/pack/core/de/xfce/nearbyos-modeling-xfce"
+url="https://github.com/samwhelp/nearbyos-packaging/tree/main/pack/core/de/xfce/nearbyos-modeling-xfce-config-main"
 arch=('any')
 license=('MIT')
 makedepends=()
