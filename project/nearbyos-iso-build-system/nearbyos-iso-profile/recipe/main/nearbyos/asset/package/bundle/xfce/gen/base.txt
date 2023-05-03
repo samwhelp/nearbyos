@@ -1,0 +1,17 @@
+
+
+################################################################################
+### Head: Nearbyos / Eesktop Environment / Xfce
+##
+
+xfce4
+xfce4-goodies
+
+plank
+
+xarchiver
+xfburn
+
+##
+### Tail: Nearbyos / Eesktop Environment / Xfce
+################################################################################

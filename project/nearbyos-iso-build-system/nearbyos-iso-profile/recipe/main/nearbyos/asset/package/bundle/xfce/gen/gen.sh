@@ -13,6 +13,16 @@ THE_CMD_FILE_NAME="$(basename "$0")"
 
 
 ################################################################################
+### Head: Path
+##
+THE_PACKAGE_COMMON_MAIN_DIR_PATH="${THE_BASE_DIR_PATH}/../../../common/main"
+THE_PACKAGE_COMMON_MODELING_DIR_PATH="${THE_BASE_DIR_PATH}/../../../common/modeling"
+##
+### Tail: Path
+################################################################################
+
+
+################################################################################
 ### Head: Model / Build ISO
 ##
 
@@ -20,9 +30,37 @@ mod_package_list_build () {
 
 	local package_list_file_path="${THE_BASE_DIR_PATH}/../package-list.txt"
 
-	cat "${THE_BASE_DIR_PATH}/package-base.txt" > "${package_list_file_path}"
-	cat "${THE_BASE_DIR_PATH}/package-aur.txt" >> "${package_list_file_path}"
-	cat "${THE_BASE_DIR_PATH}/package-modeling.txt" >> "${package_list_file_path}"
+
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/note.txt" > "${package_list_file_path}"
+
+
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/xorg.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/display-manager/lightdm.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/polkit.txt" >> "${package_list_file_path}"
+
+
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/font/base.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/font/cjk.txt" >> "${package_list_file_path}"
+
+
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/theme/gtk-theme.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/theme/icon-theme.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/theme/cursor-theme.txt" >> "${package_list_file_path}"
+
+
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/network/network-manager.txt" >> "${package_list_file_path}"
+
+
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/web-browser.txt" >> "${package_list_file_path}"
+
+
+	cat "${THE_BASE_DIR_PATH}/base.txt" >> "${package_list_file_path}"
+	cat "${THE_BASE_DIR_PATH}/aur.txt" >> "${package_list_file_path}"
+
+
+
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/base.txt" >> "${package_list_file_path}"
+	cat "${THE_BASE_DIR_PATH}/modeling.txt" >> "${package_list_file_path}"
 
 }
 
