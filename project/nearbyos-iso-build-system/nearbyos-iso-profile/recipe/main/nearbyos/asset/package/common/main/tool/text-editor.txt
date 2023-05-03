@@ -1,11 +1,13 @@
 
 
 ################################################################################
-### Head: Nearbyos / Main / Tool / Web Browser
+### Head: Nearbyos / Main / Tool / Text Editor
 ##
 
-firefox
+mousepad
+
+sublime-text-4
 
 ##
-### Tail: Nearbyos / Main / Tool / Web Browser
+### Tail: Nearbyos / Main / Tool / Text Editor
 ################################################################################

@@ -1,11 +1,11 @@
 
 
 ################################################################################
-### Head: Nearbyos / Main / Tool / Web Browser
+### Head: Nearbyos / Modeling / Tool / Text Editor
 ##
 
-firefox
+
 
 ##
-### Tail: Nearbyos / Main / Tool / Web Browser
+### Tail: Nearbyos / Modeling / Tool / Text Editor
 ################################################################################

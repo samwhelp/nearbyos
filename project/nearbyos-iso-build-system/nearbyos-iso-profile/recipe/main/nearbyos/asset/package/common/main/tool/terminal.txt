@@ -1,11 +1,13 @@
 
 
 ################################################################################
-### Head: Nearbyos / Main / Tool / Web Browser
+### Head: Nearbyos / Main / Tool / Terminal
 ##
 
-firefox
+sakura
+
+xfce4-terminal
 
 ##
-### Tail: Nearbyos / Main / Tool / Web Browser
+### Tail: Nearbyos / Main / Tool / Terminal
 ################################################################################

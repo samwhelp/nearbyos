@@ -75,6 +75,24 @@ polkit-gnome
 
 
 ################################################################################
+### Head: Nearbyos / Networking
+##
+
+
+##
+## https://wiki.archlinux.org/title/NetworkManager
+##
+
+networkmanager
+nm-connection-editor
+network-manager-applet
+
+##
+### Tail: Nearbyos / Networking
+################################################################################
+
+
+################################################################################
 ### Head: Nearbyos / Font
 ##
 
@@ -162,31 +180,54 @@ qt5-styleplugins
 
 
 ################################################################################
-### Head: Nearbyos / Networking
+### Head: Nearbyos / Main / Tool / File Manager
 ##
 
+thunar
+
+pcmanfm
+
+pcmanfm-qt
 
 ##
-## https://wiki.archlinux.org/title/NetworkManager
-##
-
-networkmanager
-nm-connection-editor
-network-manager-applet
-
-##
-### Tail: Nearbyos / Networking
+### Tail: Nearbyos / Main / Tool / File Manager
 ################################################################################
 
 
 ################################################################################
-### Head: Nearbyos / Web Browser
+### Head: Nearbyos / Main / Tool / Text Editor
+##
+
+mousepad
+
+sublime-text-4
+
+##
+### Tail: Nearbyos / Main / Tool / Text Editor
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Main / Tool / Web Browser
 ##
 
 firefox
 
 ##
-### Tail: Nearbyos / Web Browser
+### Tail: Nearbyos / Main / Tool / Web Browser
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Main / Tool / Terminal
+##
+
+sakura
+
+xfce4-terminal
+
+##
+### Tail: Nearbyos / Main / Tool / Terminal
 ################################################################################
 
 
@@ -238,4 +279,48 @@ nearbyos-autostart-plank-on-xfce
 
 ##
 ### Tail: Nearbyos / Modeling / Style
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Tool / File Manager
+##
+
+
+
+##
+### Tail: Nearbyos / Modeling / Tool / File Manager
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Tool / Text Editor
+##
+
+
+
+##
+### Tail: Nearbyos / Modeling / Tool / Text Editor
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Tool / Web Browser
+##
+
+
+
+##
+### Tail: Nearbyos / Modeling / Tool / Web Browser
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Tool / Terminal
+##
+
+
+
+##
+### Tail: Nearbyos / Modeling / Tool / Terminal
 ################################################################################

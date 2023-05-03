@@ -1,11 +1,15 @@
 
 
 ################################################################################
-### Head: Nearbyos / Main / Tool / Web Browser
+### Head: Nearbyos / Main / Tool / File Manager
 ##
 
-firefox
+thunar
+
+pcmanfm
+
+pcmanfm-qt
 
 ##
-### Tail: Nearbyos / Main / Tool / Web Browser
+### Tail: Nearbyos / Main / Tool / File Manager
 ################################################################################
