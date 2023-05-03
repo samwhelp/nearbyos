@@ -1,0 +1,15 @@
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Tool / Shell
+##
+
+
+nearbyos-modeling-bash-it
+
+nearbyos-modeling-oh-my-zsh
+
+
+##
+### Tail: Nearbyos / Modeling / Tool / Shell
+################################################################################

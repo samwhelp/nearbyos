@@ -48,8 +48,10 @@ mod_package_list_build () {
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/theme/icon-theme.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/theme/cursor-theme.txt" >> "${package_list_file_path}"
 
+
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/style.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/wallpaper.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/shell.txt" >> "${package_list_file_path}"
 
 
 	cat "${THE_PACKAGE_COMMON_MAIN_DIR_PATH}/tool/file-manager.txt" >> "${package_list_file_path}"
@@ -68,6 +70,7 @@ mod_package_list_build () {
 
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/style.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/wallpaper.txt" >> "${package_list_file_path}"
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/shell.txt" >> "${package_list_file_path}"
 
 
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/theme/by-theme/gruvbox.txt" >> "${package_list_file_path}"

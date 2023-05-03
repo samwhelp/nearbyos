@@ -191,6 +191,20 @@ qt5-styleplugins
 
 
 ################################################################################
+### Head: Nearbyos / Main / Shell
+##
+
+bash
+bash-completion
+
+zsh
+
+##
+### Tail: Nearbyos / Main / Shell
+################################################################################
+
+
+################################################################################
 ### Head: Nearbyos / Main / Tool / File Manager
 ##
 
@@ -322,6 +336,21 @@ nearbyos-modeling-wallpaper-default
 
 ##
 ### Tail: Nearbyos / Modeling / Wallpaper
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Tool / Shell
+##
+
+
+nearbyos-modeling-bash-it
+
+nearbyos-modeling-oh-my-zsh
+
+
+##
+### Tail: Nearbyos / Modeling / Tool / Shell
 ################################################################################
 
 
