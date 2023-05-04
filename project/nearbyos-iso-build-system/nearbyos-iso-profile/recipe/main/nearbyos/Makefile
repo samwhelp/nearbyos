@@ -1,51 +1,13 @@
+THE_MAKEFILE_FILE_PATH := $(abspath $(lastword $(MAKEFILE_LIST)))
+THE_BASE_DIR_PATH := $(abspath $(dir $(THE_MAKEFILE_FILE_PATH)))
+THE_BIN_DIR_PATH := $(THE_BASE_DIR_PATH)/helper/bin
+THE_MAK_DIR_PATH := $(THE_BASE_DIR_PATH)/helper/mak
+
+PATH := $(THE_BIN_DIR_PATH):$(PATH)
+
+
 default: help
 .PHONY: default
 
-help:
-	@echo 'Usage:'
-	@echo '	$$ make [action]'
-	@echo
-	@echo 'Example:'
-	@echo '	$$ make'
-	@echo '	$$ make help'
-	@echo
-	@echo '	$$ make prepare'
-	@echo
-	@echo '	$$ make build'
-	@echo
-	@echo '	$$ make run_iso'
-	@echo
-	@echo '	$$ make clean'
-	@echo
 
-.PHONY: help
-
-##
-## * https://wiki.archlinux.org/title/archiso
-## * https://gitlab.archlinux.org/archlinux/archiso
-## * https://wiki.archlinux.org/title/Arch_User_Repository
-## * https://archlinux.org/groups/x86_64/base-devel/
-## * https://wiki.archlinux.org/title/pacman
-## * https://wiki.archlinux.org/title/PKGBUILD
-##
-
-prepare:
-#	sudo pacman -Sy --needed base-devel archiso
-	sudo pacman -Sy --needed archiso
-#	sudo pacman -Sy --needed qemu-desktop
-.PHONY: prepare
-
-
-build:
-	./build.sh
-.PHONY: build
-
-
-run_iso:
-	run_archiso -i tmp/out/*.iso
-.PHONY: run_iso
-
-
-clean:
-	sudo rm -rf tmp
-.PHONY: clean
+include $(THE_MAK_DIR_PATH)/*.mk
