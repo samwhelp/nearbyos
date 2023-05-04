@@ -48,7 +48,7 @@ mod_iso_build () {
 
 	local delegate="${THE_PLAN_DIR_PATH}/steps.sh"
 
-	sudo THE_DEFAULT_RUN="${to_run}" THE_DEFAULT_DISTRO="base-gnome-shell" "${delegate}"
+	sudo THE_DEFAULT_RUN="${to_run}" THE_DEFAULT_DISTRO="main-cinnamon" "${delegate}"
 
 }
 
