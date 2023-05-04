@@ -1,0 +1,12 @@
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Input Method
+##
+
+nearbyos-modeling-fcitx5-chewing
+
+
+##
+### Tail: Nearbyos / Modeling / Input Method
+################################################################################

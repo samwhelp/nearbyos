@@ -169,6 +169,27 @@ xcursor-breeze
 
 
 ################################################################################
+### Head: Nearbyos / Main / Input Method
+##
+
+fcitx5
+fcitx5-chewing
+fcitx5-gtk
+fcitx5-qt
+fcitx5-configtool
+
+#fcitx5-chinese-addons
+#fcitx5-m17n
+#fcitx5-material-color
+#fcitx5-lua
+#fcitx5-anthy
+
+##
+### Tail: Nearbyos / Main / Input Method
+################################################################################
+
+
+################################################################################
 ### Head: Nearbyos / Main / Style
 ##
 
@@ -413,6 +434,18 @@ nearbyos-modeling-font-match-order
 
 ##
 ### Tail: Nearbyos / Modeling / Font
+################################################################################
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Input Method
+##
+
+nearbyos-modeling-fcitx5-chewing
+
+
+##
+### Tail: Nearbyos / Modeling / Input Method
 ################################################################################
 
 
