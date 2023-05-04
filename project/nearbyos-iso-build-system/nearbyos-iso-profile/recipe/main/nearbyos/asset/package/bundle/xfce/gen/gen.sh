@@ -78,6 +78,8 @@ mod_package_list_build () {
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/xdg.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/font.txt" >> "${package_list_file_path}"
 
+
+	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/dconf.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/input-method.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/style.txt" >> "${package_list_file_path}"
 	cat "${THE_PACKAGE_COMMON_MODELING_DIR_PATH}/wallpaper.txt" >> "${package_list_file_path}"

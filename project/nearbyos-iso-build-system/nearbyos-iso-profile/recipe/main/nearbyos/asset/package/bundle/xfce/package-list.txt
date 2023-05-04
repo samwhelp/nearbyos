@@ -438,6 +438,17 @@ nearbyos-modeling-font-match-order
 
 
 ################################################################################
+### Head: Nearbyos / Modeling / Dconf
+##
+
+nearbyos-modeling-dconf-default-user-db-initialization
+
+##
+### Tail: Nearbyos / Modeling / Dconf
+################################################################################
+
+
+################################################################################
 ### Head: Nearbyos / Modeling / Input Method
 ##
 
@@ -510,14 +521,14 @@ nearbyos-modeling-rofi
 
 
 ################################################################################
-### Head: Nearbyos / Modeling / Tool / Dock
+### Head: Nearbyos / Modeling / Dock
 ##
 
 nearbyos-modeling-plank
 
 
 ##
-### Tail: Nearbyos / Modeling / Tool / Dock
+### Tail: Nearbyos / Modeling / Dock
 ################################################################################
 
 
