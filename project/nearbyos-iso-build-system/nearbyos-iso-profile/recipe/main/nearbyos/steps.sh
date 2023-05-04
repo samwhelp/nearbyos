@@ -120,6 +120,13 @@ sys_default_distro () {
 	echo "${THE_DEFAULT_DISTRO}"
 }
 
+
+THE_DEFAULT_RUN="${THE_DEFAULT_RUN:=make-iso}"
+
+sys_default_run () {
+	echo "${THE_DEFAULT_RUN}"
+}
+
 ##
 ### Tail: Option
 ################################################################################
@@ -314,6 +321,18 @@ mod_iso_make_prepare () {
 
 
 mod_iso_make_start () {
+
+	local to_run="to_$(sys_default_run)"
+
+	if [ "${to_run}" != "to_make-iso" ]; then
+		return
+	fi
+
+	mod_iso_make_start_create_iso
+
+}
+
+mod_iso_make_start_create_iso () {
 
 	util_error_echo
 	util_error_echo "##"
