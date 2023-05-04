@@ -1,0 +1,11 @@
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Theme / Rgaps
+##
+
+nearbyos-appearance-xfwm-theme-rgaps-blend-no-buttons
+
+##
+### Tail: Nearbyos / Modeling / Theme / Rgaps
+################################################################################

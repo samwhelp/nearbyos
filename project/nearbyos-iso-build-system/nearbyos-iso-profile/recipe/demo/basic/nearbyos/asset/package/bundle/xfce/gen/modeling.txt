@@ -1,0 +1,12 @@
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Xfce
+##
+
+nearbyos-modeling-xfce-config-main
+nearbyos-autostart-plank-on-xfce
+
+##
+### Tail: Nearbyos / Modeling / Xfce
+################################################################################

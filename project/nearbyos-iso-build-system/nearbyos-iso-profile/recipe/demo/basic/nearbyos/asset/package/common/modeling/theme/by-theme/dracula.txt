@@ -1,0 +1,12 @@
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Theme / Dracula
+##
+
+nearbyos-appearance-gtk-theme-dracula
+nearbyos-appearance-icon-theme-dracula
+
+##
+### Tail: Nearbyos / Modeling / Theme / Dracula
+################################################################################

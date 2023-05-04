@@ -1,0 +1,13 @@
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Theme / Gruvbox
+##
+
+nearbyos-appearance-gtk-theme-gruvbox
+nearbyos-appearance-gtk-theme-gruvbox-dark
+nearbyos-appearance-icon-theme-gruvbox-dark
+
+##
+### Tail: Nearbyos / Modeling / Theme / Gruvbox
+################################################################################

@@ -1,0 +1,17 @@
+
+
+################################################################################
+### Head: Nearbyos / Note
+##
+
+##
+## * https://samwhelp.github.io/nearbyos/
+## * https://github.com/samwhelp/nearbyos/tree/main/project/nearbyos-iso-build-system
+## * https://github.com/samwhelp/nearbyos/tree/main/project/nearbyos-iso-build-system/nearbyos-iso-profile
+## * https://github.com/samwhelp/nearbyos/tree/main/project/nearbyos-iso-build-system/nearbyos-packaging
+## * https://github.com/samwhelp/nearbyos/tree/main/project/nearbyos-iso-build-system/nearbyos-repository
+##
+
+##
+### Tail: Nearbyos / Note
+################################################################################

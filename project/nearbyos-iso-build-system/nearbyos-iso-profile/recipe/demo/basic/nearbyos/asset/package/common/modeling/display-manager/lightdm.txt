@@ -1,0 +1,14 @@
+
+
+
+################################################################################
+### Head: Nearbyos / Modeling / Display Manager / lightdm
+##
+
+nearbyos-modeling-lightdm
+nearbyos-modeling-lightdm-gtk-greeter
+
+
+##
+### Tail: Nearbyos / Modeling / Display Manager / lightdm
+################################################################################

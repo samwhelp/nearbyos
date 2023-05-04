@@ -1,0 +1,19 @@
+
+
+################################################################################
+### Head: Nearbyos / Main / Tool / Text Editor
+##
+
+vim
+
+neovim
+
+micro
+
+mousepad
+
+sublime-text-4
+
+##
+### Tail: Nearbyos / Main / Tool / Text Editor
+################################################################################

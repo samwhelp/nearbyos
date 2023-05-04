@@ -1,0 +1,15 @@
+
+
+################################################################################
+### Head: Nearbyos / Theme / gtk-theme
+##
+
+adapta-gtk-theme
+arc-gtk-theme
+
+## for gtk2 themes
+gtk-engine-murrine
+
+##
+### Tail: Nearbyos / Theme / gtk-theme
+################################################################################

@@ -1,0 +1,22 @@
+
+
+
+################################################################################
+### Head: Nearbyos / Display Manager / lightdm
+##
+
+accountsservice
+
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+
+##
+## https://wiki.archlinux.org/title/LightDM
+## https://wiki.archlinux.org/title/ConsoleKit
+##
+
+##
+### Tail: Nearbyos / Display Manager / lightdm
+################################################################################
