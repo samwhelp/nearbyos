@@ -860,7 +860,7 @@ mod_overlay_lsb_release_by_distro () {
 
 
 	util_error_echo
-	util_error_echo "install -Dm755 ${THE_PLAN_DISTRO_DIR_PATH}/${distro}/asset/overlay/etc/pacman.d/hooks/50-lsb-release.hook ${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/pacman.d/hooks/50-lsb-release.hook"
+	util_error_echo "install -Dm644 ${THE_PLAN_DISTRO_DIR_PATH}/${distro}/asset/overlay/etc/pacman.d/hooks/50-lsb-release.hook ${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/pacman.d/hooks/50-lsb-release.hook"
 	install -Dm644 "${THE_PLAN_DISTRO_DIR_PATH}/${distro}/asset/overlay/etc/pacman.d/hooks/50-lsb-release.hook" "${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/pacman.d/hooks/50-lsb-release.hook"
 
 
@@ -1008,8 +1008,8 @@ mod_overlay_packages_by_distro () {
 	local distro="${1}"
 
 	util_error_echo
-	util_error_echo "cat ${THE_PLAN_DISTRO_DIR_PATH}/${distro}/package-list.txt >> ${THE_PLAN_PROFILE_DIR_PATH}/packages.x86_64"
-	cat "${THE_PLAN_DISTRO_DIR_PATH}/${distro}/prj/package-list.txt" >> "${THE_PLAN_PROFILE_DIR_PATH}/packages.x86_64"
+	util_error_echo "cat ${THE_PLAN_DISTRO_DIR_PATH}/${distro}/asset/package/package-list.txt >> ${THE_PLAN_PROFILE_DIR_PATH}/packages.x86_64"
+	cat "${THE_PLAN_DISTRO_DIR_PATH}/${distro}/asset/package/package-list.txt" >> "${THE_PLAN_PROFILE_DIR_PATH}/packages.x86_64"
 
 	return 0
 
