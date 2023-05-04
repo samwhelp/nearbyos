@@ -16,7 +16,7 @@ THE_CMD_FILE_NAME="$(basename "$0")"
 ### Head: PATH
 ##
 
-THE_PLAN_DIR_PATH="${THE_BASE_DIR_PATH}"
+THE_PLAN_DIR_PATH="${THE_BASE_DIR_PATH}/../../../.."
 
 ##
 ### Tail: PATH
@@ -48,7 +48,7 @@ mod_iso_build () {
 
 	local delegate="${THE_PLAN_DIR_PATH}/steps.sh"
 
-	sudo THE_DEFAULT_RUN="${to_run}" THE_DEFAULT_DISTRO="main-xfce" "${delegate}"
+	sudo THE_DEFAULT_RUN="${to_run}" THE_DEFAULT_DISTRO="main-gnome-shell" "${delegate}"
 
 }
 

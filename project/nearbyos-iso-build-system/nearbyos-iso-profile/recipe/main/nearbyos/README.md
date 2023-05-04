@@ -48,6 +48,16 @@ make clean
 ```
 
 
+### make-profile
+
+``` sh
+THE_DEFAULT_RUN=make-profile make build
+```
+
+``` sh
+THE_DEFAULT_RUN=make-profile make main-xfce
+```
+
 ## Reference
 
 * https://wiki.archlinux.org/title/archiso

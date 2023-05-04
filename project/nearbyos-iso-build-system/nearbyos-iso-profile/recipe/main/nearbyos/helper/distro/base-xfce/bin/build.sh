@@ -23,6 +23,20 @@ THE_PLAN_DIR_PATH="${THE_BASE_DIR_PATH}/../../../.."
 ################################################################################
 
 
+################################################################################
+### Head: Option
+##
+
+THE_DEFAULT_RUN="${THE_DEFAULT_RUN:=make-iso}"
+
+sys_default_run () {
+	echo "${THE_DEFAULT_RUN}"
+}
+
+##
+### Tail: Option
+################################################################################
+
 
 ################################################################################
 ### Head: Model / Build ISO
@@ -30,9 +44,11 @@ THE_PLAN_DIR_PATH="${THE_BASE_DIR_PATH}/../../../.."
 
 mod_iso_build () {
 
+	local to_run="$(sys_default_run)"
+
 	local delegate="${THE_PLAN_DIR_PATH}/steps.sh"
 
-	sudo THE_DEFAULT_DISTRO="base-xfce" "${delegate}"
+	sudo THE_DEFAULT_RUN="${to_run}" THE_DEFAULT_DISTRO="base-xfce" "${delegate}"
 
 }
 
