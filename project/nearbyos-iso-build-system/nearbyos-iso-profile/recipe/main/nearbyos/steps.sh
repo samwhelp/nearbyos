@@ -72,6 +72,18 @@ THE_PLAN_CONFIG_DIR_PATH="${THE_PLAN_ASSET_DIR_PATH}/${THE_PLAN_CONFIG_DIR_NAME}
 THE_PLAN_CONFIG_MAIN_DIR_NAME="main"
 THE_PLAN_CONFIG_MAIN_DIR_PATH="${THE_PLAN_CONFIG_DIR_PATH}/${THE_PLAN_CONFIG_MAIN_DIR_NAME}"
 
+
+
+
+THE_PLAN_HELPER_DIR_NAME="helper"
+THE_PLAN_HELPER_DIR_PATH="${THE_PLAN_DIR_PATH}/${THE_PLAN_HELPER_DIR_NAME}"
+
+
+THE_PLAN_DISTRO_DIR_NAME="distro"
+THE_PLAN_DISTRO_DIR_PATH="${THE_PLAN_HELPER_DIR_PATH}/${THE_PLAN_DISTRO_DIR_NAME}"
+
+
+
 ##
 ### Tail: Path
 ################################################################################
@@ -96,6 +108,22 @@ sys_config_root_user_password () {
 ##
 ### Tail: Config
 ################################################################################
+
+
+################################################################################
+### Head: Option
+##
+
+THE_DEFAULT_DISTRO="${THE_DEFAULT_DISTRO:=main-xfce}"
+
+sys_default_distro () {
+	echo "${THE_DEFAULT_DISTRO}"
+}
+
+##
+### Tail: Option
+################################################################################
+
 
 
 ################################################################################
@@ -882,11 +910,28 @@ mod_overlay_packages_comment_grml-zsh-config () {
 mod_overlay_packages_x86_64 () {
 
 	#mod_overlay_packages_bundle_base
+	#mod_overlay_packages_bundle_xfce
 
-	mod_overlay_packages_bundle_xfce
+	local distro="$(sys_default_distro)"
+
+
+	mod_overlay_packages_by_distro "$distro"
+
 
 }
 
+
+mod_overlay_packages_by_distro () {
+
+	local distro="${1}"
+
+	util_error_echo
+	util_error_echo "cat ${THE_PLAN_DISTRO_DIR_PATH}/${distro}/package-list.txt >> ${THE_PLAN_PROFILE_DIR_PATH}/packages.x86_64"
+	cat "${THE_PLAN_DISTRO_DIR_PATH}/${distro}/prj/package-list.txt" >> "${THE_PLAN_PROFILE_DIR_PATH}/packages.x86_64"
+
+	return 0
+
+}
 
 mod_overlay_packages_bundle_base () {
 
