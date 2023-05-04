@@ -1,0 +1,3 @@
+DISTRIB_ID=Nearbyos-Gnome-Shell
+DISTRIB_RELEASE=rolling
+DISTRIB_DESCRIPTION="Nearbyos / Gnome Shell"
