@@ -832,19 +832,6 @@ mod_overlay_localtime () {
 ### Head: Model / Overlay / profiledef.sh
 ##
 
-mod_overlay_profiledef_default () {
-
-
-	util_error_echo
-	util_error_echo "install -Dm755 ${THE_PLAN_BUILD_DIR_PATH}/profiledef.sh ${THE_PLAN_PROFILE_DIR_PATH}/profiledef.sh"
-	install -Dm755 "${THE_PLAN_BUILD_DIR_PATH}/profiledef.sh" "${THE_PLAN_PROFILE_DIR_PATH}/profiledef.sh"
-
-
-	return 0
-
-
-}
-
 mod_overlay_profiledef () {
 
 
@@ -856,7 +843,6 @@ mod_overlay_profiledef () {
 
 }
 
-
 mod_overlay_profiledef_by_distro () {
 
 	local distro="${1}"
@@ -864,6 +850,18 @@ mod_overlay_profiledef_by_distro () {
 	util_error_echo
 	util_error_echo "install -Dm755 ${THE_PLAN_DISTRO_DIR_PATH}/${distro}/asset/build/profiledef.sh ${THE_PLAN_PROFILE_DIR_PATH}/profiledef.sh"
 	install -Dm755 "${THE_PLAN_DISTRO_DIR_PATH}/${distro}/asset/build/profiledef.sh" "${THE_PLAN_PROFILE_DIR_PATH}/profiledef.sh"
+
+}
+
+mod_overlay_profiledef_default () {
+
+
+	util_error_echo
+	util_error_echo "install -Dm755 ${THE_PLAN_BUILD_DIR_PATH}/profiledef.sh ${THE_PLAN_PROFILE_DIR_PATH}/profiledef.sh"
+	install -Dm755 "${THE_PLAN_BUILD_DIR_PATH}/profiledef.sh" "${THE_PLAN_PROFILE_DIR_PATH}/profiledef.sh"
+
+
+	return 0
 
 }
 
