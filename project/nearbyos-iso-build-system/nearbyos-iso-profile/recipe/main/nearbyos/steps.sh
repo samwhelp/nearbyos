@@ -93,12 +93,12 @@ THE_PLAN_DISTRO_DIR_PATH="${THE_PLAN_HELPER_DIR_PATH}/${THE_PLAN_DISTRO_DIR_NAME
 ### Head: Config
 ##
 
-sys_config_live_user_name () {
-	cat "$THE_PLAN_CONFIG_MAIN_DIR_PATH/live-user-name.conf"
+sys_config_main_user_name () {
+	cat "$THE_PLAN_CONFIG_MAIN_DIR_PATH/main-user-name.conf"
 }
 
-sys_config_live_user_password () {
-	cat "$THE_PLAN_CONFIG_MAIN_DIR_PATH/live-user-password.conf"
+sys_config_main_user_password () {
+	cat "$THE_PLAN_CONFIG_MAIN_DIR_PATH/main-user-password.conf"
 }
 
 sys_config_root_user_password () {
@@ -674,7 +674,7 @@ mod_overlay_permission () {
 
 mod_overlay_passwd () {
 
-	local live_user_name="$(sys_config_live_user_name)"
+	local main_user_name="$(sys_config_main_user_name)"
 
 	util_error_echo
 	util_error_echo "## overlay ${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/passwd"
@@ -682,7 +682,7 @@ mod_overlay_passwd () {
 
 cat > "${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/passwd" << EOF
 root:x:0:0:root:/root:/usr/bin/bash
-${live_user_name}:x:1000:1000::/home/${live_user_name}:/bin/bash
+${main_user_name}:x:1000:1000::/home/${main_user_name}:/bin/bash
 EOF
 
 
@@ -692,7 +692,7 @@ EOF
 
 mod_overlay_group () {
 
-	local live_user_name="$(sys_config_live_user_name)"
+	local main_user_name="$(sys_config_main_user_name)"
 
 	util_error_echo
 	util_error_echo "## overlay ${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/group"
@@ -700,23 +700,23 @@ mod_overlay_group () {
 
 cat > "${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/group" << EOF
 root:x:0:root
-sys:x:3:bin,${live_user_name}
-network:x:90:${live_user_name}
-power:x:98:${live_user_name}
-adm:x:999:${live_user_name}
-wheel:x:998:${live_user_name}
-uucp:x:987:${live_user_name}
-optical:x:990:${live_user_name}
-scanner:x:991:${live_user_name}
-rfkill:x:983:${live_user_name}
-video:x:986:${live_user_name}
-storage:x:988:${live_user_name}
-audio:x:995:${live_user_name}
-users:x:985:${live_user_name}
-nopasswdlogin:x:966:${live_user_name}
-autologin:x:967:${live_user_name}
-sambashare:x:959:${live_user_name}
-${live_user_name}:x:1000:
+sys:x:3:bin,${main_user_name}
+network:x:90:${main_user_name}
+power:x:98:${main_user_name}
+adm:x:999:${main_user_name}
+wheel:x:998:${main_user_name}
+uucp:x:987:${main_user_name}
+optical:x:990:${main_user_name}
+scanner:x:991:${main_user_name}
+rfkill:x:983:${main_user_name}
+video:x:986:${main_user_name}
+storage:x:988:${main_user_name}
+audio:x:995:${main_user_name}
+users:x:985:${main_user_name}
+nopasswdlogin:x:966:${main_user_name}
+autologin:x:967:${main_user_name}
+sambashare:x:959:${main_user_name}
+${main_user_name}:x:1000:
 EOF
 
 	return 0
@@ -725,10 +725,10 @@ EOF
 
 mod_overlay_shadow () {
 
-	local live_user_name="$(sys_config_live_user_name)"
-	local live_user_password="$(sys_config_live_user_password)"
+	local main_user_name="$(sys_config_main_user_name)"
+	local main_user_password="$(sys_config_main_user_password)"
 	local root_user_password="$(sys_config_root_user_password)"
-	local live_user_password_hash="$(openssl passwd -6 "${live_user_password}")"
+	local main_user_password_hash="$(openssl passwd -6 "${main_user_password}")"
 	local root_user_password_hash="$(openssl passwd -6 "${root_user_password}")"
 
 
@@ -738,7 +738,7 @@ mod_overlay_shadow () {
 
 cat > "${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/shadow" << EOF
 root:${root_user_password_hash}:14871::::::
-${live_user_name}:${live_user_password_hash}:14871::::::
+${main_user_name}:${main_user_password_hash}:14871::::::
 EOF
 
 
@@ -748,7 +748,7 @@ EOF
 
 mod_overlay_gshadow () {
 
-	local live_user_name="$(sys_config_live_user_name)"
+	local main_user_name="$(sys_config_main_user_name)"
 
 	util_error_echo
 	util_error_echo "## overlay ${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/gshadow"
@@ -756,23 +756,23 @@ mod_overlay_gshadow () {
 
 cat > "${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/gshadow" << EOF
 root:::root
-sys:!!::${live_user_name}
-network:!!::${live_user_name}
-power:!!::${live_user_name}
-adm:!!::${live_user_name}
-wheel:!!::${live_user_name}
-uucp:!!::${live_user_name}
-optical:!!::${live_user_name}
-scanner:!!::${live_user_name}
-rfkill:!!::${live_user_name}
-video:!!::${live_user_name}
-storage:!!::${live_user_name}
-audio:!!::${live_user_name}
-users:!!::${live_user_name}
-nopasswdlogin:!::${live_user_name}
-autologin:!::${live_user_name}
-sambashare:!::${live_user_name}
-${live_user_name}:!::
+sys:!!::${main_user_name}
+network:!!::${main_user_name}
+power:!!::${main_user_name}
+adm:!!::${main_user_name}
+wheel:!!::${main_user_name}
+uucp:!!::${main_user_name}
+optical:!!::${main_user_name}
+scanner:!!::${main_user_name}
+rfkill:!!::${main_user_name}
+video:!!::${main_user_name}
+storage:!!::${main_user_name}
+audio:!!::${main_user_name}
+users:!!::${main_user_name}
+nopasswdlogin:!::${main_user_name}
+autologin:!::${main_user_name}
+sambashare:!::${main_user_name}
+${main_user_name}:!::
 EOF
 
 
