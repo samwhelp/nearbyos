@@ -7,6 +7,8 @@
 ################################################################################
 
 
+
+
 ################################################################################
 ### Head: check mode
 ##
@@ -32,7 +34,7 @@
 ## * https://www.gnu.org/software/bash/manual/bash.html#index-IGNOREEOF
 ##
 
-## disabe `ctrl + d` to exit
+## disable `ctrl + d` to exit
 set -o ignoreeof
 
 
@@ -45,7 +47,15 @@ set -o ignoreeof
 ### Head: alias
 ##
 
+
 alias ls='ls --color=auto'
+
+
+##
+## Load ~/.alias
+##
+
+[ -f ~/.alias ] && . ~/.alias
 
 
 ##
@@ -57,7 +67,20 @@ alias ls='ls --color=auto'
 ### Head: prompt
 ##
 
-PS1='[\u@\h \W]\$ '
+
+#PS1='[\u@\h \W]\$ '
+
+#PS1='\u@\H [\t] (\w) \n $ '
+
+PS1='\n\u@\H [\t] (\w) \n $ '
+
+
+##
+## Load ~/.prompt
+##
+
+[ -f ~/.prompt ] && . ~/.prompt
+
 
 ##
 ### Tail: prompt
@@ -76,7 +99,7 @@ PS1='[\u@\h \W]\$ '
 ## Load ~/.bash_it_profile
 ##
 
-[[ -f ~/.bash_it_profile ]] && . ~/.bash_it_profile
+[ -f ~/.bash_it_profile ] && . ~/.bash_it_profile
 
 
 ##
@@ -96,7 +119,7 @@ PS1='[\u@\h \W]\$ '
 ## Load ~/.fzf-load.bash
 ##
 
-[[ -f ~/.fzf-load.bash ]] && . ~/.fzf-load.bash
+[ -f ~/.fzf-load.bash ] && . ~/.fzf-load.bash
 
 
 ##
